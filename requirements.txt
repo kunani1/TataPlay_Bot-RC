@@ -5,4 +5,4 @@ hachoir
 pytz
 hachoir
 ffmpeg-python
-pip
+pip install --upgrade pip
