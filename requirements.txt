@@ -5,3 +5,4 @@ hachoir
 pytz
 hachoir
 ffmpeg-python
+pip
