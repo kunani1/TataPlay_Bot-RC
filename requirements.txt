@@ -5,4 +5,4 @@ hachoir
 pytz
 hachoir
 ffmpeg-python
-pip==22.1.2
+pip==23.1.2
