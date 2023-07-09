@@ -5,4 +5,4 @@ hachoir
 pytz
 hachoir
 ffmpeg-python
-pip install --upgrade pip
+pip==22.1.2
