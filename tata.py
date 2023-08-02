@@ -21,7 +21,7 @@ from utils import aria2c, mp4decrpyt
 def download_audio_stream(link, stream_format, filename, msg):
     try:
         cmd = [
-        "yt-dlp==2023.06.22",
+        "yt-dlp",
         "--geo-bypass-country",
         "IN",
         "-k",
@@ -54,7 +54,7 @@ def mpd_download(link, audio_data, video_data, msg):
         print(f"[DL] Audio Stream {i + 1} of {len(audio_data)}")
     try:
         video_cmd = [
-            "yt-dlp==2023.06.22",
+            "yt-dlp",
             "--geo-bypass-country",
             "IN",
             "-k",
