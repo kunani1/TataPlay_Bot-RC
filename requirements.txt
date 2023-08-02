@@ -1,8 +1,8 @@
-pyrogram
+pyrogram==2.0.105
 tgcrypto
 requests
 hachoir
 pytz
 hachoir
 ffmpeg-python
-pip==23.1.2
+pip==22.1.2
