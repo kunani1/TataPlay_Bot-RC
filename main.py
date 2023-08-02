@@ -12,7 +12,7 @@ from config import api_id, api_hash, bot_token, script_developer
 
 
 print("Installing YT-DLP")
-subprocess.run("pip install yt-dlp".split())
+subprocess.run("pip install yt-dlp==2023.06.22".split())
 
 
 data_json = get_tplay_data()
